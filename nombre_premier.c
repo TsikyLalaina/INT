@@ -13,7 +13,7 @@
     return false;
   }
   double limite = sqrt(n);
-  for(int i = 2; i <= limite; i+=2){
+  for(int i = 3; i <= limite; i+=2){
     if(n % i == 0){
       return false;
     }
@@ -23,10 +23,14 @@
  
  int main(void){
   printf("Les 25 nombres premiers sont: \n");
-  for(int i = 0; i <= 25; i++){
+  int counter = 0;
+  int i = 0;
+  while(counter < 25){
     if(est_premier(i)){
-      printf("%d\n", i);
+      printf("%d: %d\n", counter, i);
+      counter++;
     }
+    i++;
   }
   return 0;
  }
