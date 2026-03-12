@@ -13,7 +13,7 @@
     return false;
   }
   double limite = sqrt(n);
-  for(int i = 3; i <= limite; i+=2){
+  for(int i = 2; i <= limite; i+=2){
     if(n % i == 0){
       return false;
     }

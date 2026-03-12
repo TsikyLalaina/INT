@@ -1,0 +1,8 @@
+1-afficher les 25 nombres permier
+2-calculer le produit scalaire et somme de deux vecteur
+3-Calculer le produit de deux matrice
+4- pour inverser un chaine de caractere
+5. Pour compter les caractere dans une chaine de caractere
+U0 = 1
+U1 = -4
+Un= 2Un-2 + 3Un-1
